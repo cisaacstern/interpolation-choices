@@ -4,10 +4,9 @@ def _format(fig, ax, title,
             cloud=False, last_frame=False,):
     ax.margins(m)
     ax.set_aspect(aspect=1)
-    if last_frame==True:
-        ax.set_xlabel('Easting, m (+32097)')
-    ax.set_ylabel('Northing, m (+416814)')
-    ax.set_title(title, color=axc, loc='left', pad=20)
+    ax.set_xlabel('Easting, m (+320970)')
+    ax.set_ylabel('Northing, m (+4168140)')
+    ax.set_title(title, color=axc, loc='left', pad=10, size=14)
     ax.xaxis.label.set_color(lblc)
     ax.yaxis.label.set_color(lblc)
     ax.tick_params(axis='x', colors=lblc)
