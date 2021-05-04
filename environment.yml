@@ -1,0 +1,15 @@
+name: ic
+channels:
+  - conda-forge
+dependencies:
+  - python=3.7
+  - pip
+  - jupyter
+  - jupytext
+  - numpy
+  - matplotlib
+  - pandas
+  - scipy
+  - pip:
+    - pysolar
+    - toml
